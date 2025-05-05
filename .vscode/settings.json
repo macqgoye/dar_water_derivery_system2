@@ -1,0 +1,24 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "flutterTools.displayGetxContextMenu": false,
+    "flutterTools.displayMobxContextMenu": false,
+    "flutterTools.displayRiverpodContextMenu": false,
+    "flutterTools.displayModularContextMenu": false,
+    "cmake.ignoreCMakeListsMissing": true,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "na",
+            "group": "33",
+            "database": "maria",
+            "username": "macqgoye"
+        }
+    ]
+}

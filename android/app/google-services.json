@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "540697026906",
+    "project_id": "dar-water-delivery-syste-cfcb6",
+    "storage_bucket": "dar-water-delivery-syste-cfcb6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540697026906:android:d9b1be6f0059645573d363",
+        "android_client_info": {
+          "package_name": "com.example.dar_water_derivery_system"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE9FDBCp4syKkLX4pu3NJ7mIFHL94hf8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
