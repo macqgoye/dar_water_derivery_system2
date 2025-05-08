@@ -2,13 +2,12 @@ import 'package:dar_water_derivery_system/Create_account.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'admin_screen/HomeScreen.dart'; // Corrected import path
-import 'package:flutter/services.dart';
-// Removed duplicate import of 'Create_account.dart'
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  
   if (kIsWeb) {
+    // Initialize Firebase for Web
     await Firebase.initializeApp(
       options: const FirebaseOptions(
         apiKey: "AIzaSyAFW92cFSHvZriJA2M6rta1MVtZEocBGWg",
@@ -21,6 +20,7 @@ void main() async {
       ),
     );
   } else {
+    // Initialize Firebase for Android/iOS
     await Firebase.initializeApp();
   }
 
